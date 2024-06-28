@@ -42,11 +42,6 @@ const DragDrop = () => {
     setTodos(updatedTodos);
   };
 
-  const clearFromTrash = (stage) => {
-    const clearTodos = todos.filter((todo) => todo.stage !== stage);
-    setTodos(clearTodos);
-  };
-
   return (
     <Container>
       <Row>

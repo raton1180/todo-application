@@ -2,7 +2,7 @@ import React from "react";
 import "./Stage.css";
 import { Button } from "react-bootstrap";
 
-const Stage = ({ stage, todos, handleDragStart, clearFromTrash, title }) => {
+const Stage = ({ stage, todos, handleDragStart }) => {
   const stageTodos = todos.filter((todo) => todo.stage === stage);
 
   return (
